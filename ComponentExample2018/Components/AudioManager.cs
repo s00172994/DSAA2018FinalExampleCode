@@ -8,14 +8,11 @@ namespace AudioPlayer
 {
     static public class AudioManager
     {
-        static public Dictionary<string, SoundEffect> SoundEffects 
-            = new Dictionary<string, SoundEffect>();
+        static public Dictionary<string, SoundEffect> SoundEffects = new Dictionary<string, SoundEffect>();
 
-       
         public static void Play(ref SoundEffectInstance _playInstance, string sound)
         {
-
-            if (_playInstance == null) 
+            if (_playInstance == null)
             {
                 _playInstance = AudioManager.SoundEffects[sound].CreateInstance();
                 _playInstance.Play();
@@ -26,7 +23,7 @@ namespace AudioPlayer
                 {
                     _playInstance.Dispose();
                     _playInstance = null;
-                   
+
                 }
             }
         }
