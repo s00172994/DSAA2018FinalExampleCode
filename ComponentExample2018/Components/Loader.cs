@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace DSAACA.Components
+namespace ComponentExample2018.Components
 {
     static class Loader
     {

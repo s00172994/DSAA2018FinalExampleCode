@@ -1,7 +1,7 @@
 ﻿
 using AudioPlayer;
 using CameraNS;
-using InputEngineNS;
+using InputManager;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
