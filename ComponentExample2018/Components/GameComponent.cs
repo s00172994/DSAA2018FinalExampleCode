@@ -12,10 +12,16 @@ namespace Sprites
 {
     public class MyComponent : DrawableGameComponent
     {
+        #region Properties
+
         public string ImageName;
         public Vector2 Position;
         public Rectangle BoundingRect;
         public bool Active;
+
+        #endregion
+
+        #region Constructor
 
         public MyComponent(Game g, string imageName, Vector2 position) : base(g)
         {
@@ -32,8 +38,13 @@ namespace Sprites
 
         }
 
+        #endregion
+
+        #region Methods
+
         public override void Update(GameTime gameTime)
         {
+            //BoundingRect = new Rectangle((int)Position.X, (int)Position.Y, BoundingRect.Width, BoundingRect.Height);
             base.Update(gameTime);
         }
 
@@ -51,5 +62,7 @@ namespace Sprites
 
             base.Draw(gameTime);
         }
+
+        #endregion
     }
 }

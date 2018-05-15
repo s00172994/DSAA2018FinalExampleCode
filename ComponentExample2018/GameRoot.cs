@@ -16,6 +16,12 @@ namespace ComponentExample2018
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        #region Properties
+
+
+
+        #endregion
+
         public GameRoot()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -77,5 +83,11 @@ namespace ComponentExample2018
 
             base.Draw(gameTime);
         }
+
+        #region Methods
+
+        
+
+        #endregion
     }
 }
