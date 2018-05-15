@@ -41,14 +41,14 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AudioManager.cs" />
-    <Compile Include="Camera.cs" />
-    <Compile Include="Enemy.cs" />
+    <Compile Include="Components\AudioManager.cs" />
+    <Compile Include="Components\Camera.cs" />
+    <Compile Include="Entities\Enemy.cs" />
     <Compile Include="Game1.cs" />
-    <Compile Include="GameComponent.cs" />
-    <Compile Include="GameUtilities.cs" />
-    <Compile Include="InputManager.cs" />
-    <Compile Include="Loader.cs" />
+    <Compile Include="Components\GameComponent.cs" />
+    <Compile Include="Components\GameUtilities.cs" />
+    <Compile Include="Components\InputManager.cs" />
+    <Compile Include="Components\Loader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
